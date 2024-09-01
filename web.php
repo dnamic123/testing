@@ -37,7 +37,7 @@ Route::prefix('admin')->name('admin.')->group(function(){
 
 
 Auth::routes();
-
+// Hello This is my new changes
 
 //User's Dashboard
 Route::get('/dashboard', [HomeController::class, 'dashboard'])
